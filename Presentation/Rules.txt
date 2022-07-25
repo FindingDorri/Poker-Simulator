@@ -1,0 +1,66 @@
+***********************************GAME RULES*****************************
+
+SUMMARY
+
+Each player is dealt two private cards, afterwards there is a betting round. Then three community cards are dealt face up, followed by a second betting round.
+A fourth community card is dealt face up, followed by a third betting round. 
+A fifth and final community card is dealt face up and the fourth betting round begins.
+
+The pot is the sum of money that players bet during each hand. After each betting round, all bets go into the pot until a winner is determined.
+
+
+***********************************HOW THE GAME IS PLAYED*****************************
+1) The dealer deals two cards face down to each player, one card at a time.
+
+2) Once the cards are dealt, each player looks at their cards.
+
+When it's their turn,  a player makes their move. There are five moves that can be played:
+	1) Check- (betting zero). Players may not check on the opening round because they must either match or raise.
+	2) Bet- the opening bet of a betting round.
+	3) Call- to match a bet or a raise.
+	4) Fold- to discard your hand and forfeit the current pot.
+	5) Raise- to increase the size of the current bet.
+
+If a player raises the bet, each player must now call the new amount to continue playing the current hand, including those who may have already played. If a player chooses to fold, they forfeit that round. At any time an active player may re-raise. It is important to note that if a player raises, that player may not raise again unless they were re-raised, as opposed to called. 
+The round of betting stops when all players have either folded or called the last raise.
+
+***********************************ROUNDS*****************************
+
+The Dealer deals three cards face up. These are the first three of the five community cards that all players can use, along with their own cards, to make the best possible poker hand.
+(Hand specifics are at the bottom of this .txt document)
+
+The dealer deals a fourth community card face up.
+Once again, the betting round ends when all players have folded or called the last bet or raise, or if all players have "Checked".
+
+The Final Round
+This is the final round of betting. The last community card is dealt face up. First to act has the same choice of acts as before. (Check, Bet, Fold) At this point (or before) if all but one player folds, the last player who didn't fold wins the pot. Once everyone has called, players show their cards and determine the winner. The best five-card hand wins the pot.
+
+
+**********************************HAND RANKINGS*****************************
+A hand always consists of five cards. Individual cards are "ranked" as follows, highest (Ace)-to-lowest(2)
+
+Suits (Club, Diamond, Heart, Spade) have no value, so if two players have hands that are identical except for suit, then they are tied. 
+
+//A high card is used to break ties between hands of the same rank.//
+
+Here are the "Rank of Hands" in the order of strength.
+
+Royal Flush- A, K, Q, J, 10, all in the same suit.
+
+Straight Flush - Five cards in sequence, all of the same suit.
+
+Four of a Kind- Four cards of one rank.
+
+Full House- Three matching cards of one rank, plus Two matching cards of another rank. Higher ranking set of three wins. If two players have the same set of three, the player with the higher pair wins.
+
+Flush- Five cards of the same suit. High card wins.
+
+Straight- Five cards of sequential rank, but different suit. Higher cards win.
+
+Three of a kind- Three cards of the same rank, plus two unmatched cards. Higher set wins.
+
+Two Pair- Two cards of the same rank, plus Two cards of another rank. Higher pair wins.
+
+One Pair- Two cards of the same rank, plus Three unmatched cards. Higher pair wins.
+
+High Card- One card high, plus four unmatched lower ranking cards. Ace is the Highest card. Breaks ties.

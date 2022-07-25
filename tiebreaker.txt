@@ -1,0 +1,35 @@
+friend bool firstPairs(Table player[], Table community[]);
+//vector<int >
+friend bool secondPairs(Table player[], Table community[]);
+
+friend bool extraPairs(Table player[], Table community[]);
+
+friend bool threeKind(Table player[],Table community[]);
+
+friend bool threeCom(Table player[], Table community[]);
+
+friend bool fourKind(Table player[],Table community[]);
+
+
+
+
+
+//10 is royal flush
+split
+//9  is straight flush
+split
+//8 is four of a kind
+largest
+//7 is full house
+largest in 3-set, largest in 2-set
+//6 is flush
+highcard
+//5 is straight
+largest
+//4 is three of a kind
+largest
+//3 is two pairs
+largest pair wins, or split
+//2 is one pair
+largest
+//1 is high card

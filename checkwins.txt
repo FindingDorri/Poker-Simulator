@@ -1,0 +1,197 @@
+check for one pair , 2 pairs, 3 of a kind, 4 of a kind, full house:
+
+
+ 2 2    5 6 6 3 5 
+if we hold 1 pairs already
+	if community has 2 more of the same
+		4 of a kind
+		break
+	if community has 3 of a kind
+		full house 
+		break
+	if community has  1 more of the same and an extra pairs
+		full house
+		break 
+	if community has  1 more of the same 
+		3 of a kind
+		break
+	if community has a extra pair
+		2 pairs check
+		break
+	if don't have match with anything
+		1 pairs check
+		
+	
+if we don't hold matching pairs already
+ 2 3  |  2 2 5 3 3
+	check first card with community
+	if community has 3 more of the same
+		4 of a kind
+		break
+	if community has 2 more of the same
+		3 of a kind
+		
+	if community has 1 more of the same
+		one pair
+		***true
+		
+	
+	check second card with community
+	if community has 3 more of the same
+		4 of a kind
+		break
+	if community has 2 more of the same
+		3 of a kind
+		
+	if community has 1 more of the same and *** true
+		2 pairs
+		
+	if 3 of a kind ==true and 2 pairs == true
+		full house
+// 2 3 | 2 4 4 8 8 (2 pairs) with count 1
+
+// 2 3 | 4 2 3 5 5 2pairs value 2
+
+// 2 3 | 2 2 4 6 8 three of a kind value 2
+
+
+// 2 3 |  2 2 2 4 6 four of a kind 3 count
+// 2 3 |  2 2 3 2 4 four of a kind 4 count
+// 2 3 |  2 2 2 3 3 four of a kind 5 count
+
+
+
+// 2 3 | 2 2 4 5 5 full house 2 count*
+// 2 3 | 2 4 5 5 5 full house count 1 ^
+// 2 3 | 4 4 4 2 3 full house 2 count ^
+// 2 3 |  2 3 2 3 4  full house 4 count &
+// 2 3 |  2 2 3 5 5 full house and three of a kind value 3*
+// 2 3 |  2 2 3 4 9 full house and three of a kind value 3&
+// 2 3 |  4 4 4 2 2 full house count 3 ^	
+
+
+
+
+Ex:
+5 5   4 5 6 9 7
+i
+  j
+        k
+
+
+
+ 4 9  (2 3 5 6 8)
+
+
+
+2  3  4  5  6 
+
+
+ 5 7
+2 3 4 (5) 6 (7) 8  
+
+3 5 6 7 8 9
+
+7 size array
+	if community has straight
+		nothing (because it's a 0.39 percent chance that it would happen)
+
+	if community has 4 consecutive
+		pass first card to check for consecutive( backward)
+		pass second card to check for consecutive( backward)
+		if straight is true record last card used (highest value)
+	if community has 3 consecutive
+		pass both in and check for consecutive ( backward)
+		if straight is true record last card used (highest value)
+
+Ex:
+p1 5 11 wins at 34567
+p2 5 9 wins 34567
+
+2 3 4 (5) 6 7 (9)
+
+2 3 4 5 6   8 9 
+
+
+
+
+
+
+Flush:
+
+
+determine suit of 2 player cards
+	find if the suits match
+		ADD 1 TO MATCH
+			IF MATCH EQUALS 1
+				then compare with community
+				if communityMatch = 3 && match = 1 return flush
+				else
+				nothing		
+else 
+compare first card with community card until match suits
+use that suit and make a counter, 4 match == true  
+	if false
+		sets match back to 0 to compare the next card with community cards
+	
+Ex:
+H C  H H D H H
+
+Straight flush
+
+	if flush = true && straight == true
+		then true
+			send combination to royal flush
+	else 
+	nothing
+
+royal flush
+	highest is Ace and consecutive
+
+
+
+
+
+
+
+
+
+*goal for Monday:
+
++change player hand array from 5 to 2
+
++delete check combinations
+
++revise bool functions
+
+
++ Pairs functions doesnt work properly since we're not checking all the community cards
+
++ set up the table
+
+
+
+
+
+		
+
+
+ 2 3 | 2 3 3 6 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
